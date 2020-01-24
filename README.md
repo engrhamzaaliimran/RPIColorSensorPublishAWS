@@ -5,4 +5,4 @@ In order to create a connection with AWS. You first need to flash certificates p
 
 
 ## Circuit Diagram
-![Upload](images/circuit.png)
+![Upload](images/circuit.jpg)
