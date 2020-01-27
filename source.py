@@ -53,7 +53,7 @@ def loop():
   
   # Make sure that Client ID is unique for each device
   myAWSIoTMQTTShadowClient = AWSIoTPyMQTT.AWSIoTMQTTShadowClient("RPIColorSensor")
-  myAWSIoTMQTTShadowClient.configureEndpoint("a1161nszd8qg24-ats.iot.eu-west-3.amazonaws.com", 8883)
+  myAWSIoTMQTTShadowClient.configureEndpoint("XXXXXXXX.amazonaws.com", 8883)
   myAWSIoTMQTTShadowClient.configureCredentials("root-ca.pem", "rpi-private.pem.key", "rpi-certificate.pem.crt")
   
   print(myAWSIoTMQTTShadowClient.connect())
